@@ -2,7 +2,6 @@
     <div>
         <nav class="navbar navbar-expand-lg navbar-dark">
             <div class="container">
-                <a class="navbar-brand text-white">Pingoo</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -19,6 +18,8 @@
                         <a class="nav-link"><router-link to="/contact">Contact</router-link></a>
                     </li>
                     </ul>
+                    <button class="btn btn-info my-2 my-sm-0 mr-1" type="button"><router-link to="/admin/panel">Panel</router-link></button>
+                    <button class="btn btn-dark my-2 my-sm-0 ml-1 mr-1" type="button">Logout</button>
                     <button class="btn btn-danger my-2 my-sm-0" type="button"><router-link to="/admin/login">Admin</router-link></button>
                 </div>
             </div>
@@ -48,6 +49,6 @@ a {
 }
 
 a:hover {
-    color: #000000 !important;
+    color: #afaca5 !important;
 }
 </style>

@@ -9,12 +9,12 @@
                     <hr style="border: 1px solid;" />
                     <form>
                         <div class="form-group">
-                            <label for="exampleInputEmail1"><b>Email</b></label>
-                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email" autofocus>
+                            <label for="adminEmail">Email</label>
+                            <input type="email" class="form-control" id="adminEmail" aria-describedby="emailHelp" placeholder="Email" autofocus required>
                         </div>
                         <div class="form-group">
-                            <label for="exampleInputPassword1"><b>Password</b></label>
-                            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                            <label for="adminPassword">Password</label>
+                            <input type="password" class="form-control" id="adminPassword" placeholder="Password" required>
                         </div>
                         <button type="submit" class="btn btn-danger btn-block">Login</button>
                     </form>
@@ -39,7 +39,8 @@ export default {
 
 <style scoped>
 .card {
+    border-radius: 25px;
     box-shadow: 10px 10px grey;
-    background-color: #bfbfbf;
+    background-color: rgb(208, 212, 214);
 }
 </style>
