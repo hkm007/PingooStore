@@ -1,0 +1,25 @@
+.navbar {
+    background-color: #239023;
+}
+
+.navbar-brand {
+    font-family: 'Grand Hotel', cursive;
+}
+
+.fa-plus {
+    color: white;
+    font-size: 40px !important;
+}
+
+.fa-plus:hover {
+    color: blueviolet;
+}
+
+a {
+    text-decoration: none !important;
+    color: white !important;
+}
+
+a:hover {
+    color: #afaca5 !important;
+}

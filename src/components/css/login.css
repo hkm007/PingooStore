@@ -1,0 +1,16 @@
+.fa-user, .fa-key {
+    font-size: 20px;
+}
+
+.fa-sign-in {
+    font-size: 32px;
+}
+
+.card-login {
+    background-color:whitesmoke;
+    color: black;
+}
+
+hr {
+    border-top: 1px solid black;
+}

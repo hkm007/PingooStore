@@ -1,0 +1,35 @@
+.card {
+    border-bottom-left-radius: 50px 20px;
+    border-top-right-radius: 50px 20px;
+    border: solid;
+    box-shadow: 5px 10px #888888;
+}
+
+.title {
+    font-size: 26px;
+    color: black !important;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.title:hover {
+    color: blueviolet !important;
+}
+
+.card-text {
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.fa-trash-o {
+    font-size: 40px !important;
+}
+
+.author {
+    color: crimson;
+    font-style: oblique;
+}
+
+.all {
+    background-color: whitesmoke;
+}

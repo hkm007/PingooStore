@@ -1,0 +1,18 @@
+#adminPic {
+    max-height: 200px;
+    max-width: 200px;
+    border-radius: 50%;
+}
+
+.adminName {
+    margin-top: 10px;
+}
+
+.fa {
+    font-size: 48px;
+}
+
+.social {
+    text-decoration: none;
+    color: black;
+}
