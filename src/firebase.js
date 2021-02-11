@@ -5,13 +5,13 @@ import { v4 as uuidv4 } from 'uuid';
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-    apiKey: "AIzaSyD_MD8217Akg1hAHaW8JKmJBh9_M4xVypQ",
-    authDomain: "pingoo-6d44e.firebaseapp.com",
-    databaseURL: "https://pingoo-6d44e.firebaseio.com",
-    projectId: "pingoo-6d44e",
-    storageBucket: "pingoo-6d44e.appspot.com",
-    messagingSenderId: "934610442923",
-    appId: "1:934610442923:web:53e8f623f427bba55235ee"
+    apiKey: "...",
+    authDomain: "...",
+    databaseURL: "...",
+    projectId: "...",
+    storageBucket: "...",
+    messagingSenderId: "....",
+    appId: "..."
 };
 
 class Firebase {
